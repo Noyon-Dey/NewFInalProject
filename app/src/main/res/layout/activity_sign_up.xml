@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bitmproject.tourmate.SignUpActivity"
+    android:orientation="vertical"
+    android:background="#243B67"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:fontFamily="monospace"
+        android:layout_margin="30dp"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:id="@+id/nameEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Name"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/emailEtS"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Email"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/passwordEtS"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Your Password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/confirmPasswordEtS"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:onClick="signUp"
+        android:id="@+id/signUpBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
