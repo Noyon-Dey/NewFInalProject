@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bitmproject.tourmate.AddEventActivity"
+    android:orientation="vertical"
+    android:background="#243B67"
+    android:padding="20dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Add Trip"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:fontFamily="monospace"
+        android:layout_margin="30dp"
+        android:textStyle="bold|italic"
+        />
+    <EditText
+        android:id="@+id/eventNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Trip Name"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/startLocationEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Starting Location"
+        android:gravity="center"
+        android:inputType="textNoSuggestions"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:onClick="getLocation"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/destinationEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Destination"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:inputType="textNoSuggestions"
+        android:onClick="getLocation"
+        />
+    <EditText
+        android:focusable="false"
+        android:onClick="depratureDate"
+        android:layout_marginTop="20dp"
+        android:id="@+id/departureDateEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Departure Date"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+
+    <EditText
+        android:focusable="false"
+        android:onClick="depratureDate"
+        android:layout_marginTop="20dp"
+        android:id="@+id/endDateEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="End Date"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/budgetET"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Your Estimated Budget"
+        android:gravity="center"
+        android:inputType="numberDecimal"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        />
+
+    <Button
+        android:onClick="createNewEvent"
+        android:id="@+id/createEventBtn"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Event"
+        android:textAllCaps="false"
+        android:background="@drawable/corner"
+        android:backgroundTint="@color/white"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>
