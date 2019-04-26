@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tourProject"
+        android:title="Tour"
+        app:showAsAction="never"
+        android:icon="@drawable/touricon"
+        />
+    <item
+        android:id="@+id/tourWeather"
+        android:title="Weather"
+        app:showAsAction="never"
+        android:icon="@drawable/weathericon"
+        />
+    <item
+        android:id="@+id/tourMap"
+        android:title="Map"
+        app:showAsAction="never"
+        android:icon="@drawable/mapicon"
+        />
+
+</menu>

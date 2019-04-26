@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="10dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bitmproject.tourmate.ProfileEventActivity"
+    >
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+    <TextView
+        android:id="@+id/tourAreaTv"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Dhaka To Barisal"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:id="@+id/budgetStatusTv"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Your have 200 Taka out of 1000 Taka"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/amountProgress"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleY="4"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"/>
+
+    <ExpandableListView
+        android:layout_marginTop="20dp"
+        android:id="@+id/expandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ExpandableListView>
+
+</LinearLayout>

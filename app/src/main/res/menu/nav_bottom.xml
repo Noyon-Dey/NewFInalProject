@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_Bus"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="Driving" />
+
+    <item
+        android:id="@+id/navigation_walk"
+        android:icon="@drawable/ic_directions_walk_black_24dp"
+        android:title="Walk" />
+
+    <item
+        android:id="@+id/navigation_Instruction"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="Instruction" />
+
+
+</menu>

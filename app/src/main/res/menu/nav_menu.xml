@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tourProjectMap"
+        android:title="Tour"
+        app:showAsAction="never"
+        android:icon="@drawable/touricon"
+        android:onClick="nav"
+        />
+    <item
+        android:id="@+id/tourWeatherMap"
+        android:title="Weather"
+        app:showAsAction="never"
+        android:icon="@drawable/weathericon"
+        android:onClick="nav"
+        />
+
+</menu>

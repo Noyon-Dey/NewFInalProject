@@ -1,3 +1,15 @@
 <resources>
-    <string name="app_name">Final_BITM</string>
+    <string name="app_name">TourMate</string>
+    <string name="user_database_reference">User</string>
+    <string name="Map_api"> AIzaSyA5nN8sC8-gFUmueUaFh7zPXR_WZkVrX_s </string>
+    <string name="google_direction_api"> AIzaSyAVVxCGAJcXWDUad_dOGiShO158s_mClzQ </string>
+    <string name="google_near_by_places_api"> AIzaSyAAc2rX7Bv9aLLYyE9qT2QYji5oK_RwKL8 </string>
+
+    <string name="Weather_api">d0b941339d6f075686460c7fe0912041</string>
+    <string name="Seacrch_hint">City Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
 </resources>

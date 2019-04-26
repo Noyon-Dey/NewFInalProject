@@ -54,42 +54,30 @@
         android:inputType="textNoSuggestions"
         android:onClick="getLocation"
         />
+
     <EditText
-        android:focusable="false"
-        android:onClick="depratureDate"
-        android:layout_marginTop="20dp"
         android:id="@+id/departureDateEt"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Departure Date"
-        android:gravity="center"
+        android:layout_marginTop="20dp"
         android:background="@drawable/corner"
         android:backgroundTint="@color/white"
-        />
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="End Date"
+        android:onClick="depratureDate" />
+
 
     <EditText
-        android:focusable="false"
-        android:onClick="depratureDate"
-        android:layout_marginTop="20dp"
-        android:id="@+id/endDateEt"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:hint="End Date"
-        android:gravity="center"
-        android:background="@drawable/corner"
-        android:backgroundTint="@color/white"
-        />
-    <EditText
-        android:layout_marginTop="20dp"
         android:id="@+id/budgetET"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="Your Estimated Budget"
-        android:gravity="center"
-        android:inputType="numberDecimal"
+        android:layout_marginTop="20dp"
         android:background="@drawable/corner"
         android:backgroundTint="@color/white"
-        />
+        android:gravity="center"
+        android:hint="Your Estimated Budget"
+        android:inputType="numberDecimal" />
 
     <Button
         android:onClick="createNewEvent"

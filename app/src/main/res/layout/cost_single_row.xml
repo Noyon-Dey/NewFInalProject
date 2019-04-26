@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#243B67"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/costTittleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                tools:text="Ticket"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/costDateTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                tools:text="13 Sep 1997"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#00bfff"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/costAmountTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2000 Tk."
+                android:textColor="@color/black"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

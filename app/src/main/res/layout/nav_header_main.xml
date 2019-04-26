@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="167sp"
+    android:background="#243B67"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="18sp"
+    android:paddingLeft="18sp"
+    android:paddingRight="18sp"
+    android:paddingTop="18sp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:text="Tour Mate"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="map" />
+
+</LinearLayout>
